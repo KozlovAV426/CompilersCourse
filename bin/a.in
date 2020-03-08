@@ -1,0 +1,18 @@
+class Sum {
+    public static void main() {
+        int three;
+        three = 13;
+        int [] array;
+        array = new int[10];
+        array[9] = 111;
+        int [] sec_array;
+        sec_array = new int[13];
+        sec_array[7] = 3;
+        System.out.println(sec_array.length);
+        three = three % 12;
+        int seven;
+        seven = 1 + array[9];
+        array[9] = sec_array[7];
+        System.out.println(array[9]);
+    }
+}
