@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoly/complier/CompilersCourse/01-scanners/Commands.h
+cstdio
+-
+
+/home/anatoly/complier/CompilersCourse/01-scanners/lexer.cpp
+inttypes.h
+-
+iostream
+-
+errno.h
+-
+cstdlib
+-
+cstdio
+-
+cstring
+-
+FlexLexer.h
+-
+cstdio
+-
+iostream
+-
+Commands.h
+/home/anatoly/complier/CompilersCourse/01-scanners/Commands.h
+lexer.hh
+/home/anatoly/complier/CompilersCourse/01-scanners/lexer.hh
+unistd.h
+-
+
+/home/anatoly/complier/CompilersCourse/01-scanners/lexer.hh
+FlexLexer.h
+-
+

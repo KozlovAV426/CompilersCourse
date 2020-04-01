@@ -1,0 +1,30 @@
+class FirstClass {
+    public static void main() {
+        int z;
+        int q;
+        q = 13;
+        z = q;
+        System.out.println(q);
+        if (z == q) z = 10; else z = q - 1;
+    }
+}
+
+class NestedClass extends FirstClass {
+    public int zz (int x, int rqz) {
+        boolean vsc;
+        vsc = 1;
+        vsc = vsc && 1;
+        System.out.println(vsc);
+        int [] idasd;
+        idasd = new int[10];
+        idasd[7] = -13;
+        if (asd || 3) System.out.println(3);
+        while (asda == 111) int z;
+    }
+    public boolean is_smth(boolean val) {
+        assert(val == !val)
+        int x;
+        x = Smth.zz(12, 32);
+        return val && 1;
+    }
+}
