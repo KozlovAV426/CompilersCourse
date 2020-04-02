@@ -1,15 +1,16 @@
 # CompilersCourse
 
-Курс "Языки программирования и теории компиляции" ФПМИ МФТИ, 2 курс.
+## Requirements
+You need to install grapviz to create png files from output of program.
 
-## Содержание
-
-* [Грамматика](/reqs-draft.md)
-* Список семинаров
-    - [01. Лексический анализатор](/01-scanners)
-    - [02. Синтаксический анализатор](/02-parsers)
-    - [03. Построение AST-дерева](/03-parsers-with-ast)
-    - [04. Интерпретатор через Visitor](/04-visitors)
-* Список чекпоинтов
-    - [01. Наивный интерпретатор](/milestones/01-naive-interpreter.md)
-    - [02. AST-дерево](/milestones/02-ast-tree.md)
+## Getting Started
+After execution of program, do this to create png file:
+```
+dot -Tpng graphvizOut -o out.png
+```
+## Example
+You can find example of program and it's tree here:
+```
+./Visitors/InterpExample
+./Visitors/outpic.png
+```
