@@ -1,0 +1,42 @@
+class FirstClass {
+    public static void main() {
+        int z;
+        int q;
+        q = 13;
+        z = q;
+        int [] array;
+        array = new int[5 + 1];
+        System.out.println(q);
+        System.out.println(array.length);
+        System.out.println(array[0]);
+        System.out.println(array[1]);
+        array[0] = q + q;
+        System.out.println(array[0]);
+        if (q > 10) {
+            int another;
+            another = 4;
+            System.out.println(another);
+        }
+        else {
+            System.out.println(q);
+        }
+        if (q < 10) {
+            int another;
+            another = 4;
+            System.out.println(another);
+        }
+        else {
+            System.out.println(q);
+        }
+        int r;
+        r = (array[0] == q + q);
+        System.out.println(r);
+        array[4] = 1111;
+        if (array[4] == 1111) System.out.println(array[4] + 10);
+        r = 0;
+        while (r < 5) {
+            System.out.println(r);
+            r = r + 1;
+        }
+    }
+}
