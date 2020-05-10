@@ -1,0 +1,5 @@
+/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/04-visitors/CMakeFiles/rebuild_cache.dir
+/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/04-visitors/CMakeFiles/VisitorExecutable.dir
+/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/04-visitors/CMakeFiles/edit_cache.dir

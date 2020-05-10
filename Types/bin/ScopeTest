@@ -1,0 +1,38 @@
+class MainClass {
+    public static void main() {
+        int z;
+        int q;
+        q = 1;
+        z = 10;
+        {
+            int z;
+            z = 15;
+            {
+                int z;
+                z = 33;
+                System.out.println(z);
+            }
+            System.out.println(z);
+        }
+        System.out.println(z);
+    }
+}
+
+class SClass {
+    public int A() {
+        int z;
+        int q;
+        z = 14;
+        q = 14;
+        System.out.println(z);
+        if (z == q) {
+            z = 10;
+            System.out.println(3);
+            System.out.println(z);
+        } else {
+        z = q - 1;
+        System.out.println(q);
+        System.out.println(z);
+        }
+    }
+}

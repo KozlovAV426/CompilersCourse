@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ParserExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\02-parsers\;CMake Files\04-visitors\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserExample">
+				<Option output="/home/anatoly/CLionProjects/MyCompiler/bin/ParserExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anatoly/CLionProjects/MyCompiler/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/CLionProjects/MyCompiler/02-parsers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 ParserExample"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserExample/fast">
+				<Option output="/home/anatoly/CLionProjects/MyCompiler/bin/ParserExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anatoly/CLionProjects/MyCompiler/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/CLionProjects/MyCompiler/02-parsers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 ParserExample/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/MyCompiler/cmake-build-debug/02-parsers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/driver.cpp">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/driver.hh">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/main.cpp">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/parser.cpp">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/parser.cpp.rule">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/parser.hh">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/scanner.cpp">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/scanner.cpp.rule">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/scanner.h">
+			<Option target="ParserExample"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/02-parsers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02-parsers\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/MyCompiler/04-visitors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\04-visitors\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

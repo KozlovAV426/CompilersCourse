@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ParserExampleWithAst"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\01-scanners\;CMake Files\02-parsers\;CMake Files\03-parsers-with-ast\;CMake Files\04-visitors\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserExampleWithAst">
+				<Option output="/home/anatoly/complier/CompilersCourse/bin/ParserExampleWithAst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anatoly/complier/CompilersCourse/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 ParserExampleWithAst"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParserExampleWithAst/fast">
+				<Option output="/home/anatoly/complier/CompilersCourse/bin/ParserExampleWithAst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anatoly/complier/CompilersCourse/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 ParserExampleWithAst/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/complier/CompilersCourse/cmake-build-debug/03-parsers-with-ast/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/Program.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/Program.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/assignments/Assignment.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/assignments/Assignment.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/assignments/AssignmentList.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/assignments/AssignmentList.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/driver.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/driver.hh">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/AddExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/AddExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/DivExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/DivExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/IdentExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/IdentExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/MulExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/MulExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/NumberExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/NumberExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/SubstractExpression.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/expressions/SubstractExpression.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/main.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/parser.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/parser.cpp.rule">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/parser.hh">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/scanner.cpp">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/scanner.cpp.rule">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/scanner.h">
+			<Option target="ParserExampleWithAst"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/01-scanners/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\01-scanners\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/02-parsers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02-parsers\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/03-parsers-with-ast/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\03-parsers-with-ast\"/>
+		</Unit>
+		<Unit filename="/home/anatoly/complier/CompilersCourse/04-visitors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\04-visitors\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

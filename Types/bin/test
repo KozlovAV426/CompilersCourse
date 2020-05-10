@@ -1,0 +1,31 @@
+class FirstClass {
+    public static void main() {
+        int z;
+        int q;
+        z = 1;
+        q = 2;
+        {int z; z = 13;}
+        z = q;
+        if (z == q) {z = 10;} else {z = q - 1;}
+    }
+}
+
+class SClass {
+    public int A() {
+        int z;
+        int q;
+        int[] a;
+        a = new int[10];
+    }
+}
+
+class TClass {
+    public int B() {
+        SClass tmp;
+        int y;
+        y = tmp.A();
+    }
+}
+
+
+
