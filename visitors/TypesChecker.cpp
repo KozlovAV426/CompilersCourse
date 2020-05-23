@@ -38,17 +38,11 @@ void TypesChecker::Visit(AssertStatement *statement) {
 }
 
 void TypesChecker::Visit(IfElseStatement* statement) {
-//  offsets.push(0);
-//  current_layer_ = current_layer_->GetChild(offsets.top());
+
   statement->pos_statement->Accept(this);
-//
-//  size_t index = offsets.top() + 1;
-//  offsets.pop();
-//
-//  offsets.push(index);
-//  current_layer_ = current_layer_->GetChild(offsets.top());
+
   statement->neg_statement->Accept(this);
-//
+
 }
 
 void TypesChecker::Visit(IfStatement* statement) {
