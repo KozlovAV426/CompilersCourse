@@ -1,0 +1,3 @@
+/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/CMakeFiles/Interpreter_for_types_checking.dir
+/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/CMakeFiles/edit_cache.dir

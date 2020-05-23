@@ -1,0 +1,16 @@
+class FirstClass {
+    public static void main() {
+    int z;
+    int q;
+    int[] a;
+    boolean t;
+    a = new int[10];
+    z = a[3];
+    z = 12;
+    q = 8;
+    assert(z == q);
+    t = a.length;
+}
+}
+
+

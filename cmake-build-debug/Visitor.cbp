@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Visitor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anatoly/CLionProjects/Compilerr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anatoly/CLionProjects/Compilerr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VisitorExecutable">
+				<Option output="/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/VisitorExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/CLionProjects/Compilerr"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 VisitorExecutable"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VisitorExecutable/fast">
+				<Option output="/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/VisitorExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anatoly/CLionProjects/Compilerr"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 VisitorExecutable/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anatoly/CLionProjects/Compilerr/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anatoly/CLionProjects/Compilerr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/ClassDeclaration.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/ClassDeclaration.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/Declaration.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/MethodDeclaration.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/MethodDeclaration.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/VarDeclaration.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/declaration/VarDeclaration.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/driver.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/driver.hh">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AddExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AddExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AndExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AndExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AtExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/AtExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/DivExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/DivExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IdentifierExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IdentifierExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/InBrExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/InBrExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsEqualExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsEqualExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsGreaterExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsGreaterExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsLessExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/IsLessExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/LengthExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/LengthExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/LogicExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/LogicExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/MInvExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/MInvExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/ModuloExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/ModuloExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/MulExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/MulExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NegExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NegExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NewArrayExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NewArrayExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NewExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NewExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NumberExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/NumberExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/OrExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/OrExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/SubstractExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/SubstractExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/ThisExpression.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/expressions/ThisExpression.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/lvalue/ArrayIdentifier.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/lvalue/ArrayIdentifier.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/lvalue/Lvalue.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/lvalue/STIdentifier.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/lvalue/STIdentifier.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/main.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Boolean.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Boolean.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Class.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Class.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Integer.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Integer.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/MethodType.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/MethodType.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Object.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/Object.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/UninitObject.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/objects/UninitObject.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/parser.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/parser.cpp.rule">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/parser.hh">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/program/MainClass.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/program/MainClass.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/program/Program.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/program/Program.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/scanner.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/scanner.cpp.rule">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/scanner.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/AssertStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/AssertStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/IfElseStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/IfElseStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/IfStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/IfStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/InCurlyBrStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/InCurlyBrStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/LAssignStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/LAssignStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/LVDStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/LVDStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/ReturnStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/ReturnStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/SOPrintlnStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/SOPrintlnStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/Statement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/WhileStatement.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/statement/WhileStatement.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/ScopeLayer.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/ScopeLayer.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/ScopeLayerTree.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/ScopeLayerTree.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/Symbol.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/Symbol.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/Table.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/symbol_table/Table.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/type/CertainType.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/type/CertainType.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/type/Type.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Interpreter.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Interpreter.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Interpreter_types.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Interpreter_types.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Printer.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/Printer.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/SymbolTreeVisitor.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/SymbolTreeVisitor.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/TypesChecker.cpp">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/visitors/TypesChecker.h">
+			<Option target="VisitorExecutable"/>
+		</Unit>
+		<Unit filename="/home/anatoly/CLionProjects/Compilerr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
